@@ -2,10 +2,11 @@ package handlers
 
 import (
 	"encoding/json"
-	"final_project/internal/common"
-	nextdate "final_project/internal/handlers/next_date"
 	"net/http"
 	"time"
+
+	"final_project/internal/common"
+	nextdate "final_project/internal/handlers/next_date"
 )
 
 func (h *Handler) AddTask(w http.ResponseWriter, r *http.Request) {

@@ -1,18 +1,16 @@
 package main
 
 import (
+	"log"
+	"net/http"
+
+	"github.com/go-chi/chi"
+
 	"final_project/internal/authentification"
 	"final_project/internal/handlers"
 	nextdate "final_project/internal/handlers/next_date"
 	"final_project/internal/migration"
-
-	"github.com/go-chi/chi"
-
-	"log"
-	"net/http"
 )
-
-var TimeFormat = "20060102"
 
 func main() {
 

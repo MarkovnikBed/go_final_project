@@ -2,12 +2,13 @@ package nextdate
 
 import (
 	"errors"
-	"final_project/internal/common"
 	"fmt"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
+
+	"final_project/internal/common"
 )
 
 func NextDateHandler(w http.ResponseWriter, r *http.Request) {

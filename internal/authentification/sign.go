@@ -3,10 +3,11 @@ package authentification
 import (
 	"crypto/sha256"
 	"encoding/json"
-	"final_project/internal/common"
 	"net/http"
 
 	"github.com/golang-jwt/jwt/v5"
+
+	"final_project/internal/common"
 )
 
 type password struct {

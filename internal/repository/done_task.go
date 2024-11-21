@@ -3,10 +3,10 @@ package repository
 import (
 	"database/sql"
 	"errors"
+	"time"
+
 	"final_project/internal/common"
 	nextdate "final_project/internal/handlers/next_date"
-
-	"time"
 )
 
 func (rep *Repository) DoneTask(id string) error {

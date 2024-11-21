@@ -2,9 +2,10 @@ package handlers
 
 import (
 	"encoding/json"
-	"final_project/internal/common"
 	"net/http"
 	"strconv"
+
+	"final_project/internal/common"
 )
 
 func (h *Handler) DeleteTaskHandler(w http.ResponseWriter, r *http.Request) {

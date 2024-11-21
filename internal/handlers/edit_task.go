@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"encoding/json"
-	"final_project/internal/common"
-
 	"net/http"
+
+	"final_project/internal/common"
 )
 
 func (h *Handler) EditTaskHandler(w http.ResponseWriter, r *http.Request) {
